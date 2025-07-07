@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/factory/ConnectionFactory.java</file>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/factory/Conexao.java</file>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/modelo/Aluno.java</file>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/modelo/Curso.java</file>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/dao/AlunoDAO.java</file>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/dao/CursoDAO.java</file>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/gui/CursoPainel.java</file>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/gui/AlunoGUI.java</file>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/gui/CursoGUI.java</file>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/gui/Lista.java</file>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/gui/EditarAluno.java</file>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/gui/EditarCurso.java</file>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/gui/ListarAlunosCurso.java</file>
+            <file>file:/C:/Users/LG/Documents/NetBeansProjects/Avaliacao/src/gui/Relatorio.java</file>
+        </group>
+    </open-files>
+</project-private>
