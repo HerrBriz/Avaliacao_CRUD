@@ -1,0 +1,23 @@
+-- Criar o banco de dados
+CREATE DATABASE IF NOT EXISTS Curso;
+USE Curso;
+ 
+-- Criar a tabela 'curso'
+CREATE TABLE curso (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    carga_horaria INT NOT NULL CHECK (carga_horaria >= 20),
+    limite_alunos INT NOT NULL CHECK (limite_alunos >= 1),
+    ativo BOOLEAN NOT NULL DEFAULT TRUE
+);
+ 
+-- Criar a tabela 'aluno'
+CREATE TABLE aluno (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    cpf CHAR(11) NOT NULL UNIQUE,
+    email VARCHAR(100) NOT NULL,
+    data_nascimento DATE NOT NULL,
+    ativo BOOLEAN NOT NULL DEFAULT TRUE,
+    idCurso INT NOT NULL,
+    FOREIGN KEY (idCurso) REFERENCES curso(id) ON DELETE CASCADE
